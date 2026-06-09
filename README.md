@@ -58,6 +58,13 @@
   </a>
 
   <!-- Mapa de Google Maps -->
-  <iframe src="https://www.google.com/maps/embed?pb=!1m18!..." allowfullscreen="" loading="lazy"></iframe>
+  <iframe 
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.123456789!2d-58.123456!3d-34.567890!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc123456789%3A0xabcdef123456789!2sSalón%20Mix%20Eventos!5e0!3m2!1ses!2sar!4v1623456789012" 
+  width="300" 
+  height="200" 
+  style="border:0;" 
+  allowfullscreen="" 
+  loading="lazy">
+</iframe>
 </body>
 </html>
