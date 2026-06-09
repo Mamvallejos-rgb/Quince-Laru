@@ -1,1 +1,63 @@
 # Quince-Laru
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Quince años de Lara</title>
+  <!-- Fuentes elegantes desde Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Dancing+Script:wght@500&family=Parisienne&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background: linear-gradient(to bottom, #0b0c2a, #1a1b4b);
+      color: white;
+      text-align: center;
+      font-family: 'Dancing Script', cursive;
+      margin: 0;
+      padding: 0;
+    }
+    h1 {
+      font-family: 'Great Vibes', cursive;
+      font-size: 3em;
+      margin-top: 40px;
+      color: #c0c0c0; /* plateado */
+    }
+    .evento {
+      font-family: 'Parisienne', cursive;
+      font-size: 1.5em;
+      margin: 10px 0;
+      color: #c0c0c0; /* plateado */
+    }
+    button {
+      background-color: #c0c0c0; /* plateado */
+      color: #0b0c2a;
+      border: none;
+      padding: 12px 24px;
+      font-size: 1.2em;
+      border-radius: 8px;
+      cursor: pointer;
+      margin-top: 20px;
+      font-family: 'Dancing Script', cursive;
+    }
+    iframe {
+      margin-top: 30px;
+      border: none;
+      border-radius: 10px;
+      width: 300px;
+      height: 200px;
+    }
+  </style>
+</head>
+<body>
+  <h1>✨ Quince años de Lara ✨</h1>
+  <p class="evento">Sábado 17 de octubre - 21:30 hrs</p>
+  <p class="evento">📍 Salón Mix Eventos</p>
+
+  <!-- Botón de confirmación -->
+  <a href="https://forms.gle/TU-LINK" target="_blank">
+    <button>Confirmar asistencia</button>
+  </a>
+
+  <!-- Mapa de Google Maps -->
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!..." allowfullscreen="" loading="lazy"></iframe>
+</body>
+</html>
