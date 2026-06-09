@@ -18,15 +18,16 @@
       font-family: 'Great Vibes', cursive;
       font-size: 3em;
       margin-top: 40px;
-      color: #ffd700; /* dorado */
+      color: #c0c0c0; /* plateado */
     }
     .evento {
       font-family: 'Parisienne', cursive;
       font-size: 1.5em;
       margin: 10px 0;
+      color: #c0c0c0; /* plateado */
     }
     button {
-      background-color: #ffd700;
+      background-color: #c0c0c0; /* plateado */
       color: #0b0c2a;
       border: none;
       padding: 12px 24px;
@@ -56,6 +57,6 @@
   </a>
 
   <!-- Mapa de Google Maps -->
-  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.123456789!2d-58.123456!3d-34.567890!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc123456789%3A0xabcdef123456789!2sSalón%20Mix%20Eventos!5e0!3m2!1ses!2sar!4v1623456789012" allowfullscreen="" loading="lazy"></iframe>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!..." allowfullscreen="" loading="lazy"></iframe>
 </body>
 </html>
