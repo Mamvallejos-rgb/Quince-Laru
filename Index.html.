@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Quince años de Lara</title>
+  <style>
+    body {
+      background-color: #0b1d3a; /* azul noche */
+      color: #fff;
+      font-family: 'Arial', sans-serif;
+      text-align: center;
+      padding: 20px;
+      background-image: url('estrellas.png'); /* podés poner una imagen de estrellas */
+      background-size: cover;
+    }
+    h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+    .evento {
+      font-size: 1.5em;
+      margin: 20px 0;
+    }
+    button {
+      background-color: #1e88e5; /* azul brillante */
+      color: white;
+      padding: 15px 25px;
+      border: none;
+      border-radius: 8px;
+      font-size: 1.2em;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #1565c0;
+    }
+    iframe {
+      margin-top: 20px;
+      border: none;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>✨ Quince años de Lara ✨</h1>
+  <p class="evento">Sábado 17 de octubre – 21:30 hrs</p>
+  <p class="evento">📍 Salón Mix Eventos</p>
+
+  <!-- Botón de confirmación -->
+  <a href="https://forms.gle/TU-LINK" target="_blank">
+    <button>Confirmar asistencia</button>
+  </a>
+
+  <!-- Mapa de ubicación -->
+  <iframe 
+    src="https://www.google.com/maps/embed?pb=TU-CODIGO" 
+    width="350" height="250" allowfullscreen>
+  </iframe>
+</body>
+</html>
